@@ -1,6 +1,6 @@
 package Day_11_052322;
 
-import ReusableLibries.Reusable_Actions;
+import ReusableClass.Reusable_Actions;
 import ReusableClass.Reusable_Actions_Loggers;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;

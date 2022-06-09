@@ -28,8 +28,7 @@ public class GoogleHomePage extends Reusable_Annotation_Class {
     WebElement searchField;
     @FindBy(xpath = "//*[@name='btnK']")
     WebElement googleSearchButton;
-    @FindBy(xpath = "//*[@name='links']")
-    List<WebElement> listLinks;
+
 
     public void searchUserValue(String uservalue){
         Reusable_Actions_POM_Loggers.sendKeysAction(driver,searchField,uservalue,logger,"Search Field");

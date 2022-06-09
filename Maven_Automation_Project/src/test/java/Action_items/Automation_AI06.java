@@ -12,7 +12,7 @@ Action Item due by Thursday 11pm eastern
 package Action_items;
 
 
-import ReusableLibries.Reusable_Actions;
+import ReusableClass.Reusable_Actions;
 import ReusableClass.Reusable_Actions_Loggers;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
@@ -45,25 +45,32 @@ public class Automation_AI06 {
         reports = new ExtentReports("src/main/java/HTML_Report/AI06.html",true);
     }
       //this is going to be my first test case to get to the website
+
     @Test(priority = 1)
       public void Webpage(){
           //first-Step is to go to the webpage
           driver.navigate().to("https://www.assurant.com/home");
-          //this click action will click on the claims and support
+        //this click action will click on the claims and support
           Reusable_Actions.clickAction(driver, "//*[@title='Document Icon']", "Claims & Support ");
           //this click action will click on the Mobile Device Insurance button
           Reusable_Actions.clickAction(driver, "//*[@alt='Blue and orange icon of a mobile phone with a shield symbol on the screen']", "Mobile Device Insurance");
 
-      }
+        }
 
       //this test will only run if webpage is completes running
     @Test(dependsOnMethods = "Webpage")
       //As a user I want to file a claim, so I can get a new device from my provider.
       public void WirelessClaim(){
-          //this click action will click on My Wireless Claims Site
+
+        //this click action will click on My Wireless Claims Site
           Reusable_Actions.clickAction(driver, "//*[@href='https://mywirelessclaim.com/']", "My Wireless Claims Site ");
           //this click action will click on the select a provider button
           Reusable_Actions.clickAction(driver, "//*[@alt='Select a Provider']", "Select a Provider");
+        //this click action will click on the T-Mobile by Metro button
+        Reusable_Actions.clickAction(driver, "//*[@data-container='subMenu1']", "t-mobile dropdown");
+        //this click action will click on the T-Mobile by Metro button
+        Reusable_Actions.clickAction(driver, "//*[@href='https://www.mywirelessclaim.com/t-mobile?lang=en-us']", "t-mobile usa");
+
       }
 
       //this test will run after completing webpage
@@ -72,18 +79,22 @@ public class Automation_AI06 {
       //@Test(dependsOnMethods = "WirelessClaim")
       //As a user I want to look for repair shop, so I can repair my device by my provider.
       public void DeviceProtection(){
-          //first-Step is to go to the webpage
+
+        //first-Step is to go to the webpage
           driver.navigate().to("https://www.assurant.com/home");
           //this click action will click on the claims and support
           Reusable_Actions.clickAction(driver, "//*[@title='Document Icon']", "Claims & Support ");
           //this click action will click on the Mobile Device Insurance button
-          Reusable_Actions.clickAction(driver, "//*[@alt='Blue and orange icon of a mobile phone with a shield symbol on the screen']", "Mobile Device Insurance");
+         Reusable_Actions.clickAction(driver, "//*[@alt='Blue and orange icon of a mobile phone with a shield symbol on the screen']", "Mobile Device Insurance");
           //this click action will click on the Don't Have Device Protection? plan button
           Reusable_Actions.clickAction(driver, "//*[@href='https://www.cellphonerepair.com/locations/']", "Don't Have Device Protection?");
           //this Send-keys-Action will type zipcode on the search bar
           Reusable_Actions.sendKeysAction(driver, "//*[@id='mb-zip-search']", "11218", "Search by ZIP or Postal Code");
           //this click action will click on the submit button after the input is written.
           Reusable_Actions.clickAction(driver, "//*[@id='bh-sl-submit']", "Submit");
+          //this click action will cick on the repair detils
+        Reusable_Actions.clickAction(driver,"//*[@href='https://www.cellphonerepair.com/astoria-long-island-ny/free-repair-estimate/']", "Repair Estimate");
+
       }
 
     //this test will run after completing "@test Priority =2 "
@@ -152,8 +163,6 @@ public class Automation_AI06 {
         reports.endTest(logger);
     }
 
-
-
     @Test(priority = 6)
     //As an owner I want to Purchase a Surety Bond, so I insure my Property
     public void RentersInsurance(){
@@ -188,10 +197,7 @@ public class Automation_AI06 {
         //this click action will click on the Continue button
         Reusable_Actions.clickAction(driver, "//*[@id='btnSubmit']", "Continue");
 
-
-
     }
-
 
         @AfterSuite
     //this will end the run and quit the program/browser

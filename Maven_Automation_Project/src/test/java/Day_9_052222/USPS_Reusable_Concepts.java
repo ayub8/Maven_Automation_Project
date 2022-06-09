@@ -1,6 +1,6 @@
 package Day_9_052222;
 
-import ReusableLibries.Reusable_Actions;
+import ReusableClass.Reusable_Actions;
 import org.openqa.selenium.WebDriver;
 
 public class USPS_Reusable_Concepts {

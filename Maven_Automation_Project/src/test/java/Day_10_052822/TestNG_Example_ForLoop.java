@@ -1,6 +1,6 @@
 package Day_10_052822;
 
-import ReusableLibries.Reusable_Actions;
+import ReusableClass.Reusable_Actions;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;

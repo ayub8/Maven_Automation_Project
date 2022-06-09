@@ -1,4 +1,4 @@
-package ReusableLibries;
+package ReusableClass;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
@@ -23,8 +23,6 @@ public class Reusable_Actions
     // It sets up the driver to be used in the test.
     public static WebDriver setDriver()
     {
-
-
         //setup your chromedriver with webdrivermanager
         WebDriverManager.chromedriver().setup();
         //set chrome options arguments
@@ -32,9 +30,9 @@ public class Reusable_Actions
         //set the condition to incognito mode
         options.addArguments("incognito");
         //set the condition to maximize/fullscreen your driver
-        options.addArguments("start-maximized");
+       // options.addArguments("start-maximized");
         //for mac use full screen
-        //options.addArguments("start-fullscreen");
+        options.addArguments("start-fullscreen");
         //define the webdriver I am going to use
         WebDriver driver = new ChromeDriver(options);
         return driver;
@@ -56,7 +54,7 @@ public class Reusable_Actions
     //create a click method
     public static void clickAction(WebDriver driver,String xpath, String elementName)
     {
-        WebDriverWait wait = new WebDriverWait(driver,10);
+        WebDriverWait wait = new WebDriverWait(driver,15);
         try{
             WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
             element.click();
@@ -68,7 +66,7 @@ public class Reusable_Actions
     //create a sendkeys method
     public static void sendKeysAction(WebDriver driver,String xpath, String userValue,String elementName)
     {
-        WebDriverWait wait = new WebDriverWait(driver, 10);
+        WebDriverWait wait = new WebDriverWait(driver, 5);
         try {
             // Waiting for the element to be visible and then sending the userValue to the element.
             WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
@@ -79,7 +77,7 @@ public class Reusable_Actions
     }
 
     public static String getTextAction(WebDriver driver, String xpath, String elementName) {
-        WebDriverWait wait = new WebDriverWait(driver,10);
+        WebDriverWait wait = new WebDriverWait(driver,15);
         String result = null;
         try{
             WebElement element =wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
@@ -93,7 +91,7 @@ public class Reusable_Actions
     }//end of gettextaction method
 
     public static void clickByIndexAction(WebDriver driver, String xpath, int indexNumber, String elementName) {
-        WebDriverWait wait = new WebDriverWait(driver,10);
+        WebDriverWait wait = new WebDriverWait(driver,15);
         try{
             WebElement element = wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(xpath))).get(indexNumber);
             element.click();
@@ -104,7 +102,7 @@ public class Reusable_Actions
 
     }//end of clickByIndexAction
     public static void submitAction(WebDriver driver, String xpath, String elementName) {
-        WebDriverWait wait = new WebDriverWait(driver,10);
+        WebDriverWait wait = new WebDriverWait(driver,15);
         try{
             WebElement element =wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
             element.submit();

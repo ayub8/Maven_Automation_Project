@@ -1,6 +1,6 @@
 package Day_11_052322;
 
-import ReusableLibries.Reusable_Actions;
+import ReusableClass.Reusable_Actions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

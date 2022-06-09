@@ -27,9 +27,9 @@ public class Reusable_Actions_POM_Loggers {
         //set the condition to incognito mode
         options.addArguments("incognito");
         //set the condition to maximize/fullscreen your driver
-        options.addArguments("start-maximized");
+        //options.addArguments("start-maximized");
         //for mac use full screen
-        //options.addArguments("start-fullscreen");
+        options.addArguments("start-fullscreen");
         //define the webdriver I am going to use
         WebDriver driver = new ChromeDriver(options);
         return driver;
