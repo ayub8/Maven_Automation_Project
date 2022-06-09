@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ca6843b2-4aad-419e-ba16-2f9f49d267cb" name="Changes" comment="My First Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HTML_Report/AI06.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HTML_Report/Automation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HTML_Report/Screenshots/Search Results.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/BaseClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/GoogleHomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/GoogleSearchResultPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReusableClass/Reusable_Actions_Loggers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReusableClass/Reusable_Actions_POM_Loggers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReusableClass/Reusable_Annotation_Class.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Action_items/Automation_AI01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Action_items/Automation_AI02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Action_items/Automation_AI02_Part2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Action_items/Automation_AI02_Part2Whileloop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Action_items/Automation_AI03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Action_items/Automation_AI04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Action_items/Automation_AI05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Action_items/Automation_AI06.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day_10_052822/TestNG_Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day_10_052822/TestNG_Example_ForLoop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day_11_052322/Boolean_with_Checkbox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day_11_052322/Google_Search_HTML_Report.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day_11_052322/USPS_List_WebElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day_12_060422/Boolean_With_Yahoo_checkbox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day_12_060422/GoogleSearch_POM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day_12_060422/Google_Search_Reusable_Annotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day_12_060422/SmokeTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day_1_042322/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day_1_042322/FirstCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day_2_042322/ArrayListExp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day_2_042322/Forloop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day_2_042322/LinearArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day_2_042322/WhileLoop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day_3_043022/Multiple_condition_Statements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day_3_043022/Testing_methods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day_3_043022/if_else_condition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day_3_043022/loop_with_conditions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day_4_050722/GoogleSearchTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day_4_050722/SplitMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day_4_050722/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day_6_051422/FindElementsExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day_6_051422/Scroll_Mortgagecal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day_6_051422/WebElement_Mortgagecalc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day_7_051522/Exception_mortgageCalc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day_7_051522/Select_MorgageCalc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day_7_051522/fedilisCare_tabs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day_8_052122/GetTitle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day_8_052122/hotelsClassAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day_9_052222/MouseAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day_9_052222/Test_Mouse_Action.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day_9_052222/USPS_Implicit_Explicit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day_9_052222/USPS_Reusable_Concepts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Notes/notes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ReusableLibries/Automation_AI05_ReusableAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ReusableLibries/Reusable_Actions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ReusableLibries/Reusable_Methods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day_5_050822/ChromeOption_GoogleSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day_5_050822/ForLoop_ArrayList_GoogleSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PageObjects/BaseClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PageObjects/GoogleHomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PageObjects/GoogleSearchResultPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ReusableClass/Reusable_Actions_Loggers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ReusableClass/Reusable_Actions_POM_Loggers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ReusableClass/Reusable_Annotation_Class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Action_items/Automation_AI01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Action_items/Automation_AI02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Action_items/Automation_AI02_Part2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Action_items/Automation_AI02_Part2Whileloop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Action_items/Automation_AI03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Action_items/Automation_AI04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Action_items/Automation_AI05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Action_items/Automation_AI06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Day_10_052822/TestNG_Example.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Day_10_052822/TestNG_Example_ForLoop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Day_11_052322/Boolean_with_Checkbox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Day_11_052322/Google_Search_HTML_Report.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Day_11_052322/USPS_List_WebElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Day_12_060422/Boolean_With_Yahoo_checkbox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Day_12_060422/GoogleSearch_POM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Day_12_060422/Google_Search_Reusable_Annotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Day_1_042322/Example.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Day_1_042322/FirstCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Day_2_042322/ArrayListExp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Day_2_042322/Forloop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Day_2_042322/LinearArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Day_2_042322/WhileLoop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Day_3_043022/Multiple_condition_Statements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Day_3_043022/Testing_methods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Day_3_043022/if_else_condition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Day_3_043022/loop_with_conditions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Day_4_050722/GoogleSearchTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Day_4_050722/SplitMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Day_4_050722/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Day_6_051422/FindElementsExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Day_6_051422/Scroll_Mortgagecal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Day_6_051422/WebElement_Mortgagecalc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Day_7_051522/Exception_mortgageCalc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Day_7_051522/Select_MorgageCalc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Day_7_051522/fedilisCare_tabs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Day_8_052122/GetTitle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Day_8_052122/hotelsClassAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Day_9_052222/MouseAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Day_9_052222/Test_Mouse_Action.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Day_9_052222/USPS_Implicit_Explicit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Day_9_052222/USPS_Reusable_Concepts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Notes/notes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ReusableLibries/Automation_AI05_ReusableAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ReusableLibries/Reusable_Actions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ReusableLibries/Reusable_Methods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/day_5_050822/ChromeOption_GoogleSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/day_5_050822/ForLoop_ArrayList_GoogleSearch.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="MD Ayub N &lt;mdayubn@yahoo.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RESET_MODE" value="SOFT" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="27rRSwk6UzySXlIlTvgc7HUuGjT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ReusableClass" />
+      <recent name="Day_12_060422" />
+      <recent name="Day_11_052322" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.GoogleSearch_POM">
+    <configuration name="GoogleSearch_POM" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Maven_Automation_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day_12_060422.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day_12_060422" />
+      <option name="MAIN_CLASS_NAME" value="Day_12_060422.GoogleSearch_POM" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoogleSearch_POM.SearchForAKeywordOnGoogleHome (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Maven_Automation_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day_12_060422.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day_12_060422" />
+      <option name="MAIN_CLASS_NAME" value="Day_12_060422.GoogleSearch_POM" />
+      <option name="METHOD_NAME" value="SearchForAKeywordOnGoogleHome" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoogleSearch_POM.SearchForAKeywordOnGoogleHome" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Maven_Automation_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day12_060422.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day12_060422" />
+      <option name="MAIN_CLASS_NAME" value="Day12_060422.GoogleSearch_POM" />
+      <option name="METHOD_NAME" value="SearchForAKeywordOnGoogleHome" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Google_Search_Reusable_Annotation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Maven_Automation_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day_12_060422.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day_12_060422" />
+      <option name="MAIN_CLASS_NAME" value="Day_12_060422.Google_Search_Reusable_Annotation" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/mdayubnabi/Desktop/IT course/Maven_Automation_Project/src/test/java/Day_12_060422/SmokeTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Maven_Automation_Project" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/Day_12_060422/SmokeTest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.GoogleSearch_POM" />
+        <item itemvalue="TestNG.GoogleSearch_POM.SearchForAKeywordOnGoogleHome (1)" />
+        <item itemvalue="TestNG.GoogleSearch_POM.SearchForAKeywordOnGoogleHome" />
+        <item itemvalue="TestNG./Users/mdayubnabi/Desktop/IT course/Maven_Automation_Project/src/test/java/Day_12_060422/SmokeTest.xml" />
+        <item itemvalue="TestNG.Google_Search_Reusable_Annotation" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca6843b2-4aad-419e-ba16-2f9f49d267cb" name="Changes" comment="" />
+      <created>1650076225405</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650076225405</updated>
+    </task>
+    <task id="LOCAL-00001" summary="My First Commit">
+      <created>1654803916918</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654803916918</updated>
+    </task>
+    <task id="LOCAL-00002" summary="My First Commit">
+      <created>1654803998154</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654803998154</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="38a3c076-7e5a-4dc5-af1d-5eb037ae8f3d">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/Users/mdayubnabi/Desktop/IT course/Maven_Automation_Project/src/main/java/HTML_Report/Screenshots" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="38a3c076-7e5a-4dc5-af1d-5eb037ae8f3d" value="TOOL_WINDOW" />
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="My First Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="My First Commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Action_items/Automation_AI06.java</url>
+          <line>173</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Action_items/Automation_AI06.java</url>
+          <line>180</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Action_items/Automation_AI06.java</url>
+          <line>178</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Action_items/Automation_AI06.java</url>
+          <line>176</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Action_items/Automation_AI06.java</url>
+          <line>174</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Action_items/Automation_AI06.java</url>
+          <line>175</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Action_items/Automation_AI06.java</url>
+          <line>177</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Action_items/Automation_AI06.java</url>
+          <line>179</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Maven_Automation_Project$Automation_AI05.ic" NAME="Automation_AI05 Coverage Results" MODIFIED="1653607499867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Action_items.*</FILTER>
+    </SUITE>
+  </component>
+</project>
